@@ -12,18 +12,21 @@ const ReactFundamentals = () => {
       role: "Frontend Developer",
       avatar: "https://via.placeholder.com/100",
       bio: "Learning React step by step.",
+      buttonLabel: "Follow",
     },
     {
       name: "John Doe",
       role: "Backend Developer",
       avatar: "https://via.placeholder.com/100",
       bio: "Loves coding and coffee.",
+      buttonLabel: "Connect",
     },
     {
       name: "Jane Smith",
       role: "UI/UX Designer",
       avatar: "https://via.placeholder.com/100",
       bio: "Designing intuitive interfaces.",
+      buttonLabel: "Message",
     },
   ];
   return (
