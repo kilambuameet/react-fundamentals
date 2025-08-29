@@ -1,4 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
+import Forms from "./pages/forms/Forms";
 import ReactFundamentals from "./pages/react-fundamentals/ReactFundamentals";
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
       <Navbar />
       <div className="container mx-auto px-4 ">
         <ReactFundamentals />
+        <Forms />
       </div>
     </>
   );
